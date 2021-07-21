@@ -1,0 +1,1 @@
+[{"ContainerToolsException.Message":"Volume sharing is not enabled. On the Settings screen in Docker Desktop, click Shared Drives, and select the drive(s) containing your project files.","ContainerToolsException.ErrorCode":"CTC1001","ContainerToolsException.StackTrace":"","ContainerToolsException.HResult":"-2146233088"}]
