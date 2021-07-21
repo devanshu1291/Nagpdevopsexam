@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CMu+Lkbt/+c0x+VQ2fTmPevxzbOJHhFr5hnAcVSJbWdzqL6bnPy1IW2X6luxaDoSl7wBZEvxjUNqypXTvP5bYA==",
+  "dgSpecHash": "LtG4lhRw7Pafh7BZ02pFx0q90O9i0TPRn0bBYW6seSHuG3Cv2h2VCKyV26DA0LM+LBrrbMXBigNjwgQ6Ltq6xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\devanshugoyal\\Desktop\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\UnitTestProject1\\UnitTestProject1.csproj",
+  "projectFilePath": "C:\\Users\\devanshugoyal\\Desktop\\New folder (6)\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\UnitTestProject1\\UnitTestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
@@ -12,7 +12,6 @@
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
-    "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.9.5\\microsoft.visualstudio.azure.containers.tools.targets.1.9.5.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\mstest.testadapter\\2.1.0\\mstest.testadapter.2.1.0.nupkg.sha512",
     "C:\\Users\\devanshugoyal\\.nuget\\packages\\mstest.testframework\\2.1.0\\mstest.testframework.2.1.0.nupkg.sha512",

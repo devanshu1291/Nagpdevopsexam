@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devanshugoyal\\Desktop\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\WebApplication4.csproj",
+      "projectUniqueName": "C:\\Users\\devanshugoyal\\Desktop\\New folder (6)\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\WebApplication4.csproj",
       "projectName": "WebApplication4",
-      "projectPath": "C:\\Users\\devanshugoyal\\Desktop\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\WebApplication4.csproj",
+      "projectPath": "C:\\Users\\devanshugoyal\\Desktop\\New folder (6)\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\WebApplication4.csproj",
       "packagesPath": "C:\\Users\\devanshugoyal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devanshugoyal\\Desktop\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\obj\\",
+      "outputPath": "C:\\Users\\devanshugoyal\\Desktop\\New folder (6)\\jenkins1\\Hello-World-DotNetCore-master\\Hello-World-DotNetCore-master\\WebApplication4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
