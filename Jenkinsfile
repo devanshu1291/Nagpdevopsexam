@@ -1,18 +1,8 @@
 pipeline {
     agent any
-
-
-stages{
-  stage ('Checkout') {
-  steps {
-     checkout([ $class:'GitSCM', branches:[[name: '*/main']] , userRemoteConfigs:[[credentialsId: 'github', url: 'https://github.com/devanshu1291/jenkinsdevopsdemo']]])
-    }
-    
-  }
-pipeline {
-    agent any
     
 environment {
+    scannerHome = tool name: 'sonar_scanner_dotnet'
         username = 'devanshugoyal'
 		registry = 'devanshu123/devanshugoyal'
 		properties = null
@@ -31,7 +21,14 @@ stages{
     bat "dotnet restore WebApplication4\\WebApplication4.csproj"
   }
 }
-
+stage('Start Sonar Analysis') {
+      steps {
+        withSonarQubeEnv('Test_Sonar'){
+            bat "${scannerHome}\\SonarScanner.MSBuild.exe begin /k:WebApplication4 /n:WebApplication4 /v:1.0"
+        }
+        
+      }
+    }
  stage('Build') {
  steps {
   bat 'dotnet clean WebApplication4\\WebApplication4.csproj'     
@@ -48,7 +45,14 @@ bat 'dotnet test WebApplication4\\WebApplication4.csproj --logger "trx;LogFileNa
  
  }
 }
- 
+  stage('End Sonar Analysis') {
+      steps {
+        withSonarQubeEnv('Test_Sonar'){
+            bat "${scannerHome}\\SonarScanner.MSBuild.exe end"
+        }
+        
+      }
+    }
 		  stage('Build Docker Image') {
       steps {
              bat "dotnet publish WebApplication4\\WebApplication4.csproj"
