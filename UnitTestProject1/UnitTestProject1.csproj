@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplication4\WebApplication4.csproj" />
+  </ItemGroup>
+
 </Project>
