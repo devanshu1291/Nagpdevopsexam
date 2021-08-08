@@ -1,0 +1,4 @@
+C:\Users\devanshugoyal\Desktop\New folder (8)\jenkins1\Hello-World-DotNetCore-master\Hello-World-DotNetCore-master\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\devanshugoyal\Desktop\New folder (8)\jenkins1\Hello-World-DotNetCore-master\Hello-World-DotNetCore-master\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\devanshugoyal\Desktop\New folder (8)\jenkins1\Hello-World-DotNetCore-master\Hello-World-DotNetCore-master\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.AssemblyInfo.cs
+C:\Users\devanshugoyal\Desktop\New folder (8)\jenkins1\Hello-World-DotNetCore-master\Hello-World-DotNetCore-master\UnitTestProject1\obj\Debug\netcoreapp3.1\UnitTestProject1.csproj.CoreCompileInputs.cache
